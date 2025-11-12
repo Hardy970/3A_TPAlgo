@@ -1,0 +1,70 @@
+01 Une pierre
+02 deux maisons
+03 trois ruines
+04 quatres fossoyeurs
+05 un jardin
+06 des fleurs
+07 
+08 un raton laveur
+9 
+10 une douzaine d'huîtres un citron un pain
+11 un rayon de soleil
+12 une lame de fond
+13 six musiciens
+14 une porte avec son paillasson
+15 un monsieur décoré de la légion d'honneur
+16 
+17 un autre raton laveur
+18 
+19 un sculpteur qui sculpte des Napoléon
+20 la fleur qu'on appelle souci
+21 deux amoureux sur un grand lit
+22 un receveur des contributions une chaise trois dindons
+23 un ecclésiastique un furoncle
+24 une guêpe
+25 un rein flottant
+26 une écurie de courses
+27 un fils indigne deux frères dominicains trois sauterelles un strapontin
+28 deux filles de joie un oncle Cyprien
+29 une Mater dolorosa trois papas gâteau deux chèvres de Monsieur Seguin
+30 un talon Louis XV
+31 un fauteuil Louis XVI
+32 un buffet Henri II deux buffets Henri III trois buffets Henri IV
+33 un tiroir dépareillé
+34 une pelote de ficelle deux épingles de sûreté un monsieur âgé
+35 une Victoire de Samothrace un comptable deux aides-comptables un homme du monde deux chirurgiens trois végétariens
+36 un cannibale
+37 une expédition coloniale un cheval entier une demi-pinte de bon sang une mouche tsé-tsé
+38 un homard à l'américaine un jardin à la française
+39 deux pommes à l'anglaise
+40 un face-à-main un valet de pied un orphelin un poumon d'acier
+41 un jour de gloire
+42 une semaine de bonté
+43 un mois de Marie
+44 une année terrible
+45 une minute de silence
+46 une seconde d'inattention
+47 et...
+48 
+49 cinq ou six ratons laveurs
+50 
+51 un petit garçon qui entre à l'école en pleurant
+52 un petit garçon qui sort de l'école en riant
+53 une fourmi
+54 deux pierres à briquet
+55 dix-sept éléphants un juge d'instruction en vacances assis sur un pliant
+56 un paysage avec beaucoup d'herbe verte dedans
+57 une vache
+58 un taureau
+59 deux belles amours trois grandes orgues un veau marengo
+60 un soleil d'Austerlitz
+61 un siphon d'eau de Seltz
+62 un vin blanc citron
+63 un Petit Poucet un grand pardon un calvaire de pierre une échelle de corde
+64 deux soeurs latines trois dimensions douze apôtres mille et une nuits trente-deux positions six parties du monde cinq points cardinaux dix ans de bons et loyaux services sept péchés capitaux deux doigts de la main dix gouttes avant chaque repas trente jours de prison dont quinze de cellule cinq minutes d'entracte
+65 
+66 et...
+67 
+68 plusieurs ratons laveurs.
+69 
+70 (Jacques Prévert, Paroles, 1946)
