@@ -91,7 +91,10 @@ def ll_str(l: LinkedList) -> str:
 
 
 def ll_lookup(l: LinkedList, item: int) -> Cell | None:
-    head= ll_head(l)
+    try:
+        head= ll_head(l)
+    except IndexError:
+        return None
     while head is  not l.sentinelle:
         if head.item==item:
             return head
@@ -100,15 +103,18 @@ def ll_lookup(l: LinkedList, item: int) -> Cell | None:
 def ll_cell_at(l: LinkedList, i: int) -> Cell:
     head = ll_head(l)
     c=0
-    while c is not i and head is not l.sentinelle:
-        if head.item == item:
-            return head
+    while c != i and head is not l.sentinelle:
         head = head.next
-    return None
-
+        c+=1
+    if head==l.sentinelle:
+        raise IndexError
+    return head
 def ll_prepend(l: LinkedList, item: int) -> Cell:
-    raise NotImplementedError("LinkedList ll_prepend function not yet implemented")
-
+    newCell= Cell(item,l.sentinelle.next,l.sentinelle)
+    l.sentinelle.next.previous= newCell
+    l.sentinelle.next= newCell
+    l.size+=1
+    return newCell
 
 def ll_insert(l: LinkedList, item: int, next_to: Cell) -> Cell:
     raise NotImplementedError("LinkedList ll_insert function not yet implemented")
