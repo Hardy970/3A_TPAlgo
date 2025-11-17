@@ -57,12 +57,12 @@ def d_push_rear(d: Deque, item: int) -> Deque:
 def d_pop_front(d: Deque) -> Deque:
     if ll_is_empty(d.ll):
         raise IndexError('Unable to pop the front of an empty deque')
-    # TODO: complete the missing part
+    ll_remove(d.ll,ll_head(d.ll))
     return d
 
 
 def d_pop_rear(d: Deque) -> Deque:
     if ll_is_empty(d.ll):
         raise IndexError('Unable to pop the rear of an empty deque')
-    # TODO: complete the missing part
+    ll_remove(d.ll,ll_tail(d.ll))
     return d
