@@ -117,12 +117,18 @@ def ll_prepend(l: LinkedList, item: int) -> Cell:
     return newCell
 
 def ll_insert(l: LinkedList, item: int, next_to: Cell) -> Cell:
-    raise NotImplementedError("LinkedList ll_insert function not yet implemented")
+    newCell= Cell(item,next_to.next,next_to)
+    next_to.next.previous = newCell
+    next_to.next= newCell
+    l.size +=1
+    return newCell
 
 
 def ll_remove(l: LinkedList, cell: Cell) -> int:
-    raise NotImplementedError("LinkedList ll_remove function not yet implemented")
-
+    cell.previous.next= cell.next
+    cell.next.previous= cell.previous
+    l.size-=1
+    return cell.item
 
 def ll_extend(l1: LinkedList, l2: LinkedList) -> None:
     raise NotImplementedError("LinkedList ll_extend function not yet implemented")
