@@ -131,8 +131,11 @@ def ll_remove(l: LinkedList, cell: Cell) -> int:
     return cell.item
 
 def ll_extend(l1: LinkedList, l2: LinkedList) -> None:
-    raise NotImplementedError("LinkedList ll_extend function not yet implemented")
-
+    l1.sentinelle.previous.next=l2.sentinelle.next
+    l2.sentinelle.next.previous= l1.sentinelle.previous
+    l1.sentinelle.previous= l2.sentinelle.previous
+    l2.sentinelle.previous.next= l1.sentinelle
+    l1.size+=l2.size
 
 if __name__ == '__main__':
     l = ll_new([1,2,3,4])
