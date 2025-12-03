@@ -90,12 +90,15 @@ def bt_str(bt: BinaryTree) -> str:
     return bt_str_aux(bt.root)
 
 def bt_new(nodes: list[int | None] | None = None) -> BinaryTree:
-    if nodes is None or nodes ==[] or nodes ==[None]:
+    if nodes is None or nodes ==[] or nodes[0] is None:
         return BinaryTree(None)
     else:
-        tree= BinaryTree(Node(nodes[0],nodes[1],nodes[2]))
-
-        return tree
+        def bt_new_aux(l,i):
+            if i>=len(l) or l[i] is None:
+                return None
+            else:
+                return Node(nodes[i],bt_new_aux(l,(2*i)+1),bt_new_aux(l,(2*i)+2))
+        return BinaryTree(bt_new_aux(nodes,0))
 
 def bt_is_bst(bt: BinaryTree) -> bool:
     raise NotImplementedError("bt_is_bst function not implemented yet")
