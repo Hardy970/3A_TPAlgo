@@ -11,14 +11,12 @@ class Item:
 @dataclass
 class HashMap:
     # TODO: add your attributes here
-    # TODO: delete __post_init__ method
-    def __post_init__(self):
-        raise NotImplementedError("HashMap class not implemented yet")
+    table: list[Item]
+
 
 
 def hm_size(aa: HashMap) -> int:
-    raise NotImplementedError("hm_size function not implemented yet")
-
+    return len(aa.table)
 
 def hm_is_empty(aa: HashMap) -> bool:
     raise NotImplementedError("hm_is_empty function not implemented yet")
