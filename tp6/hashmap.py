@@ -4,9 +4,8 @@ from dataclasses import dataclass
 @dataclass
 class Item:
     # TODO: add your attributes here
-    # TODO: delete __post_init__ method
-    def __post_init__(self):
-        raise NotImplementedError("Item class not implemented yet")
+    k : str
+    v: int
 
 
 @dataclass
